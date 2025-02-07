@@ -1,11 +1,11 @@
 import Input from '../component/Input'
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from 'react';
 import Images from '../assets/Images';
 import Button from '../component/Button';
-import { useNavigate } from "react-router-dom"; 
+import { useNavigate } from "react-router-dom";
 
 const QuestionOne = () => {
-    const navigate = useNavigate(); 
+    const navigate = useNavigate();
 
     const [fullName, setFullName] = useState('');
 
@@ -14,16 +14,7 @@ const QuestionOne = () => {
     };
     const handleClick = () => {
         navigate("/video");
-      };
-
-
-
-
-
-
-
-
-
+    };
 
 
     return (
@@ -90,36 +81,8 @@ const QuestionOne = () => {
                             <p className='mb-0'>Relationship</p>
                         </div>
                     </div>
-                    <div className='d-flex align-items-center justify-content-start'>
-                        <div className='ai-chat-item'>
-                            <p className='mb-0'>What specific challenge are you facing
-                                right now?</p>
-                        </div>
-                    </div>
-                    <div className='d-flex align-items-end justify-content-end gap-2'>
-                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
-                        <div className='user-chat-item'>
-                            <p className='mb-0'>Relationship</p>
-                        </div>
-                    </div>
-                    <div className='d-flex align-items-center justify-content-start'>
-                        <div className='ai-chat-item'>
-                            <p className='mb-0'>What specific challenge are you facing
-                                right now?</p>
-                        </div>
-                    </div>
-                    <div className='d-flex align-items-end justify-content-end gap-2'>
-                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
-                        <div className='user-chat-item'>
-                            <p className='mb-0'>Relationship</p>
-                        </div>
-                    </div>
-                    <div className='d-flex align-items-center justify-content-start'>
-                        <div className='ai-chat-item'>
-                            <p className='mb-0'>What specific challenge are you facing
-                                right now?</p>
-                        </div>
-                    </div>
+
+
                     <div className='d-flex align-items-end justify-content-end gap-2'>
                         <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
                         <div className='user-chat-item'>
@@ -141,7 +104,7 @@ const QuestionOne = () => {
                 </div>
                 <div className='d-flex align-items-center justify-content-center gap-3 bottom-navbar-conatiner'>
                     <Input imageSrc={Images.newImage} marginTop='0px' placeholder='Write a message...' onChange={handleFullNameChange} />
-                    <Button  imageSrc={Images.speak} />
+                    <Button imageSrc={Images.speak} />
                 </div>
             </div>
         </div>

@@ -54,11 +54,26 @@
 
 .ai-chat-container{
   padding: 20px; 
-  max-height: calc(100vh - 420px);  
+  /* max-height: calc(100vh - 420px);   */
 
   overflow-y: scroll;
   flex-wrap: no-wrap;
-  overflow: auto;}
+  overflow: auto;
+  mask-image: linear-gradient(to bottom, transparent, black 50%, black 97%, transparent);
+padding-top: 80px;
+    padding-bottom: 8px;
+min-height: 50px;
+    max-height: 333px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+
+}
+
+
+
+
+
+
 
   
   
