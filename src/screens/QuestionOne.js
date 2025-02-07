@@ -104,7 +104,7 @@ const QuestionOne = () => {
                 </div>
                 <div className='listening-content d-flex align-items-center justify-content-center gap-3'>
                     <p className='mb-0'>listening</p>
-                    {/* <img className='gif-content' src={Images.listeningGif} alt="Sybo GIF" /> */}
+                    <img className='gif-content' src={Images.listeningGif} alt="Sybo GIF" />
 
                 </div>
                 <div className='d-flex align-items-center justify-content-center gap-3 bottom-navbar-conatiner'>
