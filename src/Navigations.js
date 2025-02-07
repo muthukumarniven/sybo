@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import QuestionOne from './screens/QuestionOne';
+import VideoAudioRecorder from './screens/VideoAudioRecorder';
 
 const Navigations = () => {
     return (
@@ -9,7 +10,8 @@ const Navigations = () => {
             <BrowserRouter>
                 <Routes>
                     {/* <Route path='/' element={<MainHome />} /> */}
-                    <Route path='/' element={<QuestionOne />} />
+                    {/* <Route path='/' element={<QuestionOne />} /> */}
+                    <Route path='/' element={<VideoAudioRecorder/>}/>
 
 
                 </Routes>
