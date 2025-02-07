@@ -12,8 +12,6 @@ const Navigations = () => {
                     {/* <Route path='/' element={<MainHome />} /> */}
                     <Route path='/' element={<QuestionOne />} />
                     <Route path='/video' element={<VideoAudioRecorder/>}/>
-
-
                 </Routes>
             </BrowserRouter>
         </>

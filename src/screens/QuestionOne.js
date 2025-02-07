@@ -2,13 +2,29 @@ import Input from '../component/Input'
 import React, { useState } from "react";
 import Images from '../assets/Images';
 import Button from '../component/Button';
+import { useNavigate } from "react-router-dom"; 
 
 const QuestionOne = () => {
+    const navigate = useNavigate(); 
+
     const [fullName, setFullName] = useState('');
 
     const handleFullNameChange = (e) => {
         setFullName(e.target.value);
     };
+    const handleClick = () => {
+        navigate("/video");
+      };
+
+
+
+
+
+
+
+
+
+
 
     return (
         <div className='question-one-avatar'>
@@ -113,7 +129,7 @@ const QuestionOne = () => {
                 </div>
                 <div className='d-flex align-items-center justify-content-center gap-3 bottom-navbar-conatiner'>
                     <Input imageSrc={Images.newImage} marginTop='0px' placeholder='Write a message...' onChange={handleFullNameChange} />
-                    <Button imageSrc={Images.speak} />
+                    <Button onClick={handleClick} imageSrc={Images.speak} />
                 </div>
             </div>
         </div>

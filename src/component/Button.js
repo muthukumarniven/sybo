@@ -1,10 +1,12 @@
 import React from 'react'
 import Images from '../assets/Images'
 
-const Button = ({ imageSrc, backgroundColor = "#76BEE9", imgWidth="17px", imgHeight="17px", buttonWidth="46px", buttonHeight="46px" }) => {
+const Button = ({ imageSrc, onClick, backgroundColor = "#76BEE9", imgWidth="17px", imgHeight="17px", buttonWidth="46px", buttonHeight="46px" }) => {
     return (
         <>
-            <button style={{
+            <button
+            onClick={onClick}
+             style={{
                 width: buttonWidth,
                 height: buttonHeight,
                 flexShrink: 0,
