@@ -10,8 +10,8 @@ const Navigations = () => {
             <BrowserRouter>
                 <Routes>
                     {/* <Route path='/' element={<MainHome />} /> */}
-                    {/* <Route path='/' element={<QuestionOne />} /> */}
-                    <Route path='/' element={<VideoAudioRecorder/>}/>
+                    <Route path='/' element={<QuestionOne />} />
+                    <Route path='/video' element={<VideoAudioRecorder/>}/>
 
 
                 </Routes>
