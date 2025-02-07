@@ -13,7 +13,7 @@ const QuestionOne = () => {
         setFullName(e.target.value);
     };
     const handleClick = () => {
-        navigate("/video");
+        navigate("/avatar-video");
     };
 
 
@@ -104,7 +104,7 @@ const QuestionOne = () => {
                 </div>
                 <div className='d-flex align-items-center justify-content-center gap-3 bottom-navbar-conatiner'>
                     <Input imageSrc={Images.newImage} marginTop='0px' placeholder='Write a message...' onChange={handleFullNameChange} />
-                    <Button imageSrc={Images.speak} />
+                    <Button onClick={handleClick} imageSrc={Images.speak} />
                 </div>
             </div>
         </div>

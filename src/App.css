@@ -11,75 +11,14 @@
 @font-face { font-family: "Inter-SemiBold"; src: url(./assets/fonts/Inter-SemiBold.ttf);}
 
 
-.bottom-navbar-header{
-  margin-top: auto;
-}
-/* .question-one-avatar {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-image: url('./assets/images/avatar-img.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover; 
-  width: 100%;
-} */
+.bottom-navbar-header{margin-top: auto;}
+.question-one-avatar { min-height: 100vh; display: flex;flex-direction: column;background: linear-gradient(to bottom, rgba(38, 37, 3, 0) 24%, rgba(0, 0, 0, 0.86) 52%), url('./assets/images/avatar-3.jpg');background-repeat: no-repeat;background-position: center;background-attachment: fixed;background-size: cover;  /* Ensures the image covers the div */width: 100%;}
 
-
-.question-one-avatar {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(to bottom, rgba(38, 37, 3, 0) 24%, rgba(0, 0, 0, 0.86) 52%), url('./assets/images/avatar-3.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;  /* Ensures the image covers the div */
-  width: 100%;
-}
-
-
-.bottom-navbar-conatiner{
-  /* position: fixed;
-  bottom: 0;
-  left: 0; */
-  width: 100%;
-  background-color: #fff;
-  padding: 20px;
-  z-index: 10;
-  margin-top: auto;
-}
+.bottom-navbar-conatiner{ /* position: fixed; bottom: 0; left: 0; */width: 100%;background-color: #fff;padding: 20px;z-index: 10;margin-top: auto;}
 
 
 .ai-chat-container{
-  padding: 20px; 
-  /* max-height: calc(100vh - 420px);   */
-
-  overflow-y: scroll;
-  flex-wrap: no-wrap;
-  overflow: auto;
-  mask-image: linear-gradient(to bottom, transparent, black 50%, black 97%, transparent);
-padding-top: 80px;
-    padding-bottom: 8px;
-min-height: 50px;
-    max-height: 333px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-
-}
-
-
-
-
-
-
-
-  
-  
+  padding: 20px; overflow-y: scroll;flex-wrap: no-wrap;overflow: auto; mask-image: linear-gradient(to bottom, transparent, black 50%, black 97%, transparent);padding-top: 80px; padding-bottom: 8px;min-height: 50px;max-height: 333px;-webkit-box-orient: vertical;-webkit-box-direction: normal;
+} 
 .ai-chat-item{background-color: #EEEBFF;color: #212121;font-size: 14px;font-family: "Poppins-Regular";padding: 12px 16px;border-radius: 12px 12px 12px 0px ;max-width: 70%;}
-
-
-
-
 .user-chat-item{background-color: #FBF1DB;color: #212121;font-size: 14px;font-family: "Poppins-Regular";padding: 12px 16px;border-radius: 12px 12px 12px 0px ;max-width: 70%;}
