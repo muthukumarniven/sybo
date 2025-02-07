@@ -21,86 +21,106 @@ const QuestionOne = () => {
         <div className='question-one-avatar'>
             <div className='bottom-navbar-header'>
                 <div className='ai-chat-container d-flex flex-column gap-3'>
-                    <div className='d-flex align-items-center justify-content-start'>
+                    <div className='d-flex align-items-end justify-content-start gap-2'>
                         <div className='ai-chat-item'>
                             <p className='mb-0'>What specific challenge are you facing
                                 right now?</p>
+                                
                         </div>
+                        <p className='time-text-content mb-0'>9.23 PM</p>
                     </div>
                     <div className='d-flex align-items-end justify-content-end gap-2'>
                         <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
                         <div className='user-chat-item'>
                             <p className='mb-0'>Relationship</p>
                         </div>
-                    </div>
-                    <div className='d-flex align-items-center justify-content-start'>
-                        <div className='ai-chat-item'>
-                            <p className='mb-0'>What specific challenge are you facing
-                                right now?</p>
-                        </div>
-                    </div>
-                    <div className='d-flex align-items-end justify-content-end gap-2'>
-                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
-                        <div className='user-chat-item'>
-                            <p className='mb-0'>Relationship</p>
-                        </div>
-                    </div>
-                    <div className='d-flex align-items-center justify-content-start'>
-                        <div className='ai-chat-item'>
-                            <p className='mb-0'>What specific challenge are you facing
-                                right now?</p>
-                        </div>
-                    </div>
-                    <div className='d-flex align-items-end justify-content-end gap-2'>
-                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
-                        <div className='user-chat-item'>
-                            <p className='mb-0'>Relationship</p>
-                        </div>
-                    </div>
-                    <div className='d-flex align-items-center justify-content-start'>
-                        <div className='ai-chat-item'>
-                            <p className='mb-0'>What specific challenge are you facing
-                                right now?</p>
-                        </div>
-                    </div>
-                    <div className='d-flex align-items-end justify-content-end gap-2'>
-                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
-                        <div className='user-chat-item'>
-                            <p className='mb-0'>Relationship</p>
-                        </div>
-                    </div>
-                    <div className='d-flex align-items-center justify-content-start'>
-                        <div className='ai-chat-item'>
-                            <p className='mb-0'>What specific challenge are you facing
-                                right now?</p>
-                        </div>
-                    </div>
-                    <div className='d-flex align-items-end justify-content-end gap-2'>
-                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
-                        <div className='user-chat-item'>
-                            <p className='mb-0'>Relationship</p>
-                        </div>
+                        <p className='time-text-content mb-0'>9.23 PM</p>
+
                     </div>
 
 
-                    <div className='d-flex align-items-end justify-content-end gap-2'>
-                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
-                        <div className='user-chat-item'>
-                            <p className='mb-0'>Relationship</p>
-                        </div>
-                    </div>
-                    <div className='d-flex align-items-center justify-content-start'>
+                    <div className='d-flex align-items-end justify-content-start gap-2'>
                         <div className='ai-chat-item'>
                             <p className='mb-0'>What specific challenge are you facing
                                 right now?</p>
+                                
                         </div>
+                        <p className='time-text-content mb-0'>9.23 PM</p>
                     </div>
                     <div className='d-flex align-items-end justify-content-end gap-2'>
                         <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
                         <div className='user-chat-item'>
                             <p className='mb-0'>Relationship</p>
                         </div>
+                        <p className='time-text-content mb-0'>9.23 PM</p>
+
                     </div>
+                       <div className='d-flex align-items-end justify-content-start gap-2'>
+                        <div className='ai-chat-item'>
+                            <p className='mb-0'>What specific challenge are you facing
+                                right now?</p>
+                                
+                        </div>
+                        <p className='time-text-content mb-0'>9.23 PM</p>
+                    </div>
+                    <div className='d-flex align-items-end justify-content-end gap-2'>
+                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
+                        <div className='user-chat-item'>
+                            <p className='mb-0'>Relationship</p>
+                        </div>
+                        <p className='time-text-content mb-0'>9.23 PM</p>
+
+                    </div>
+                    <div className='d-flex align-items-end justify-content-start gap-2'>
+                        <div className='ai-chat-item'>
+                            <p className='mb-0'>What specific challenge are you facing
+                                right now?</p>
+                                
+                        </div>
+                        <p className='time-text-content mb-0'>9.23 PM</p>
+                    </div>
+                    <div className='d-flex align-items-end justify-content-end gap-2'>
+                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
+                        <div className='user-chat-item'>
+                            <p className='mb-0'>Relationship</p>
+                        </div>
+                        <p className='time-text-content mb-0'>9.23 PM</p>
+
+                    </div>
+                    <div className='d-flex align-items-end justify-content-start gap-2'>
+                        <div className='ai-chat-item'>
+                            <p className='mb-0'>What specific challenge are you facing
+                                right now?</p>
+                                
+                        </div>
+                        <p className='time-text-content mb-0'>9.23 PM</p>
+                    </div>
+                    <div className='d-flex align-items-end justify-content-end gap-2'>
+                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
+                        <div className='user-chat-item'>
+                            <p className='mb-0'>Relationship</p>
+                        </div>
+                        <p className='time-text-content mb-0'>9.23 PM</p>
+
+                    </div>
+                    <div className='d-flex align-items-end justify-content-start gap-2'>
+                        <div className='ai-chat-item'>
+                            <p className='mb-0'>What specific challenge are you facing
+                                right now?</p>
+                                
+                        </div>
+                        <p className='time-text-content mb-0'>9.23 PM</p>
+                    </div>
+                    <div className='d-flex align-items-end justify-content-end gap-2'>
+                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
+                        <div className='user-chat-item'>
+                            <p className='mb-0'>Relationship</p>
+                        </div>
+                        <p className='time-text-content mb-0'>9.23 PM</p>
+
+                    </div>
+                
+                 
                 </div>
                 <div className='listening-content d-flex align-items-center justify-content-center gap-3'>
                     <p className='mb-0'>listening</p>
