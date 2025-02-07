@@ -50,6 +50,66 @@ const QuestionOne = () => {
                             <p className='mb-0'>Relationship</p>
                         </div>
                     </div>
+                    <div className='d-flex align-items-center justify-content-start'>
+                        <div className='ai-chat-item'>
+                            <p className='mb-0'>What specific challenge are you facing
+                                right now?</p>
+                        </div>
+                    </div>
+                    <div className='d-flex align-items-end justify-content-end gap-2'>
+                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
+                        <div className='user-chat-item'>
+                            <p className='mb-0'>Relationship</p>
+                        </div>
+                    </div>
+                    <div className='d-flex align-items-center justify-content-start'>
+                        <div className='ai-chat-item'>
+                            <p className='mb-0'>What specific challenge are you facing
+                                right now?</p>
+                        </div>
+                    </div>
+                    <div className='d-flex align-items-end justify-content-end gap-2'>
+                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
+                        <div className='user-chat-item'>
+                            <p className='mb-0'>Relationship</p>
+                        </div>
+                    </div>
+                    <div className='d-flex align-items-center justify-content-start'>
+                        <div className='ai-chat-item'>
+                            <p className='mb-0'>What specific challenge are you facing
+                                right now?</p>
+                        </div>
+                    </div>
+                    <div className='d-flex align-items-end justify-content-end gap-2'>
+                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
+                        <div className='user-chat-item'>
+                            <p className='mb-0'>Relationship</p>
+                        </div>
+                    </div>
+                    <div className='d-flex align-items-center justify-content-start'>
+                        <div className='ai-chat-item'>
+                            <p className='mb-0'>What specific challenge are you facing
+                                right now?</p>
+                        </div>
+                    </div>
+                    <div className='d-flex align-items-end justify-content-end gap-2'>
+                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
+                        <div className='user-chat-item'>
+                            <p className='mb-0'>Relationship</p>
+                        </div>
+                    </div>
+                    <div className='d-flex align-items-center justify-content-start'>
+                        <div className='ai-chat-item'>
+                            <p className='mb-0'>What specific challenge are you facing
+                                right now?</p>
+                        </div>
+                    </div>
+                    <div className='d-flex align-items-end justify-content-end gap-2'>
+                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
+                        <div className='user-chat-item'>
+                            <p className='mb-0'>Relationship</p>
+                        </div>
+                    </div>
                 </div>
                 <div className='d-flex align-items-center justify-content-center gap-3 bottom-navbar-conatiner'>
                     <Input imageSrc={Images.newImage} marginTop='0px' placeholder='Write a message...' onChange={handleFullNameChange} />
