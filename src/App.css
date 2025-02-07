@@ -1,0 +1,54 @@
+
+@font-face { font-family: "Poppins-Bold"; src: url(./assets/fonts/Poppins-Bold.ttf); }
+@font-face { font-family: "Poppins-Light"; src: url(./assets/fonts/Poppins-Light.ttf);}
+@font-face { font-family: "Poppins-Medium"; src: url(./assets/fonts/Poppins-Medium.ttf);}
+@font-face { font-family: "Poppins-Regular"; src: url(./assets/fonts/Poppins-Regular.ttf);}
+@font-face { font-family: "Poppins-SemiBold";  src: url(./assets/fonts/Poppins-SemiBold.ttf);}
+@font-face { font-family: "Inter-Bold"; src: url(./assets/fonts/Inter-Bold.ttf);}
+@font-face { font-family: "Inter-Light" ; src: url(./assets/fonts/Inter-Light.ttf);}
+@font-face { font-family: "Inter-Medium"; src: url(./assets/fonts/Inter-Medium.ttf);}
+@font-face { font-family: "Inter-Regular" ; src: url(./assets/fonts/Inter-Regular.ttf);}
+@font-face { font-family: "Inter-SemiBold"; src: url(./assets/fonts/Inter-SemiBold.ttf);}
+
+
+.bottom-navbar-header{
+  margin-top: auto;
+}
+/* .question-one-avatar {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('./assets/images/avatar-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; 
+  width: 100%;
+} */
+
+
+.question-one-avatar {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, rgba(38, 37, 3, 0) 24%, rgba(0, 0, 0, 0.86) 52%), url('./assets/images/avatar-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;  /* Ensures the image covers the div */
+  width: 100%;
+}
+
+
+.bottom-navbar-conatiner{
+  background-color: #fff;
+  padding: 23px 16px;
+
+}
+.ai-chat-container{padding: 20px;}
+.ai-chat-item{background-color: #EEEBFF;color: #212121;font-size: 14px;font-family: "Poppins-Regular";padding: 12px 16px;border-radius: 12px 12px 12px 0px ;max-width: 70%;}
+
+
+
+
+.user-chat-item{background-color: #FBF1DB;color: #212121;font-size: 14px;font-family: "Poppins-Regular";padding: 12px 16px;border-radius: 12px 12px 12px 0px ;max-width: 70%;}
