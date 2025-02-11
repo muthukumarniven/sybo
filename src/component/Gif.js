@@ -9,7 +9,7 @@ const Gif = () => {
         loop
         autoplay
         color='#76BEE9'
-        style={{ maxWidth: "217px", maxHeight: "90px" }}  // Optional: Add your custom size
+        style={{ maxWidth: "217px", maxHeight: "96px" }}  // Optional: Add your custom size
       />
     </>
   );

@@ -8,7 +8,7 @@ const AudioListen = () => {
       src="https://lottie.host/76e77a39-129f-4e47-8507-3ba73fa7c466/QQ348Ba0qy.lottie"
       loop
       autoplay
-      style={{maxWidth:"497px", maxHeight:"123px"}}
+      style={{maxWidth:"350px", maxHeight:"103px"}}
     />
    </>
   )
