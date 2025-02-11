@@ -69,10 +69,6 @@ const QuestionOne = () => {
                     </div>
 
 
-                    <img className='audio-voice-template' src={Images.audio} alt="Sybo GIF" />
-
-
-
 
                 </div>
                 <div className='listening-content d-flex align-items-center justify-content-center gap-3'>
