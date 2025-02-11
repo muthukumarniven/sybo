@@ -6,14 +6,25 @@ import avatarThree from './images/avatar-3.jpg'
 
 import listeningGif from './images/sybo-new.gif'
 
+import audio from './images/audio.gif'
+
+import cancel from './images/cancel.svg'
+
+import mick from './images/mick.gif'
+
+
 const Images = {
 
     speak: require('./images/speak.svg').default,
     edit: require('./images/edit.svg').default, 
+
     avatar,
     avatarTwo,
     avatarThree,
-    listeningGif
+    listeningGif,
+    audio,
+    cancel,
+    mick
     
 
 

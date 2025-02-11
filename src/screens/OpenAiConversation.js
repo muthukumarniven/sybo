@@ -1,10 +1,11 @@
-import Input from '../component/Input'
 import React, { useState, useEffect, useRef } from 'react';
 import Images from '../assets/Images';
 import Button from '../component/Button';
 import { useNavigate } from "react-router-dom";
+import Input from '../component/Input'
 
-const QuestionOne = () => {
+
+const OpenAiConversation = () => {
     const navigate = useNavigate();
 
     const [fullName, setFullName] = useState('');
@@ -15,8 +16,6 @@ const QuestionOne = () => {
     const handleClick = () => {
         navigate("/openai");
     };
-
-
     return (
         <div className='question-one-avatar'>
             <div className='bottom-navbar-header'>
@@ -26,6 +25,7 @@ const QuestionOne = () => {
                             <p className='mb-0'>What specific challenge are you facing
                                 right now?</p>
                             <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
+
                         </div>
                     </div>
                     <div className='d-flex align-items-end justify-content-end gap-2'>
@@ -44,7 +44,6 @@ const QuestionOne = () => {
 
                         </div>
                     </div>
-              
                     <div className='d-flex align-items-end justify-content-end gap-2'>
                         <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
                         <div className='user-chat-item'>
@@ -52,6 +51,7 @@ const QuestionOne = () => {
                             <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
                         </div>
                     </div>
+
                     <div className='d-flex align-items-end justify-content-start gap-2'>
                         <div className='ai-chat-item'>
                             <p className='mb-0'>What specific challenge are you facing
@@ -67,26 +67,19 @@ const QuestionOne = () => {
                             <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
                         </div>
                     </div>
+                </div>
 
-
+                <div className='d-flex flex-column align-items-center justify-content-center gap-4 openai-conversation'>
                     <img className='audio-voice-template' src={Images.audio} alt="Sybo GIF" />
-
-
-
-
-                </div>
-                <div className='listening-content d-flex align-items-center justify-content-center gap-3'>
-                    <p className='mb-0'>listening</p>
-                    <img className='gif-content' src={Images.listeningGif} alt="Sybo GIF" />
-
-                </div>
-                <div className='d-flex align-items-center justify-content-center gap-3 bottom-navbar-conatiner'>
-                    <Input imageSrc={Images.newImage} marginTop='0px' placeholder='Write a message...' onChange={handleFullNameChange} />
-                    <Button onClick={handleClick} imageSrc={Images.speak} />
+                    <img className='mick-content' src={Images.mick} alt="Sybo GIF" />
+                    <div className='d-flex align-items-center justify-content-center flex-column gap-2'>
+                        <button className='end-conversation-content'> <img src={Images.cancel} alt="Sybo GIF" />  </button>
+                        <p className='end-conversation-title mb-0'>End conversation</p>
+                    </div>
                 </div>
             </div>
         </div>
     )
 }
 
-export default QuestionOne
+export default OpenAiConversation

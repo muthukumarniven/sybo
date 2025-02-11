@@ -17,6 +17,8 @@
 .bottom-navbar-conatiner{ /* position: fixed; bottom: 0; left: 0; */width: 100%;background-color: #fff;padding: 20px;z-index: 10;margin-top: auto;}
 
 
+.openai-conversation{width: 100%;padding: 20px;z-index: 10;margin-top: auto;}
+
 .ai-chat-container{
   padding: 20px; overflow-y: scroll;flex-wrap: no-wrap;overflow: auto; mask-image: linear-gradient(to bottom, transparent, black 50%, black 97%, transparent);padding-top: 20px; padding-bottom: 8px;min-height: 50px;max-height: 333px;-webkit-box-orient: vertical;-webkit-box-direction: normal;
 } 
@@ -34,11 +36,13 @@
 .time-text-content{font-family: "Poppins-Medium"; font-size: 10px; color: #212121;}
 
 
+.audio-voice-template{width: 150px;}
 
+.end-conversation-title{color: #888889;font-size: 12px; font-family: "Poppins-Regular";}
 
+.end-conversation-content{background: transparent;box-shadow: none; border: none;}
 
-
-
+.mick-content{width: 57px; height: 57px;}
 
 
 
