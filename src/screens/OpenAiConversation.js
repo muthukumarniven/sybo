@@ -70,10 +70,10 @@ const OpenAiConversation = () => {
 
                 <div className='d-flex flex-column align-items-center justify-content-center gap-4 openai-conversation'>
                     {/* <img className='audio-voice-template' src={Images.audio} alt="Sybo GIF" /> */}
-                    <div style={{maxWidth:"300px", maxHeight:"100px"}}>
+                    <div className='audio-speak-container' >
                         <AudioListen />
                     </div>
-                    <div style={{maxWidth:"200px", maxHeight:"100px"}}>
+                    <div className='speak-listen-container' >
                         <Gif />
                     </div>  
                     <div className='d-flex align-items-center justify-content-center flex-column gap-2'>
