@@ -14,9 +14,7 @@ const OpenAiConversation = () => {
     const handleFullNameChange = (e) => {
         setFullName(e.target.value);
     };
-    const handleClick = () => {
-        navigate("/openai");
-    };
+
     return (
         <div className='question-one-avatar'>
             <div className='bottom-navbar-header'>
@@ -72,9 +70,12 @@ const OpenAiConversation = () => {
 
                 <div className='d-flex flex-column align-items-center justify-content-center gap-4 openai-conversation'>
                     {/* <img className='audio-voice-template' src={Images.audio} alt="Sybo GIF" /> */}
-                    <AudioListen/>
-
-                    <Gif/>
+                    <div style={{maxWidth:"300px", maxHeight:"100px"}}>
+                        <AudioListen />
+                    </div>
+                    <div style={{maxWidth:"200px", maxHeight:"100px"}}>
+                        <Gif />
+                    </div>  
                     <div className='d-flex align-items-center justify-content-center flex-column gap-2'>
                         <button className='end-conversation-content'> <img src={Images.cancel} alt="Sybo GIF" />  </button>
                         <p className='end-conversation-title mb-0'>End conversation</p>
