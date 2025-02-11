@@ -3,7 +3,8 @@ import Images from '../assets/Images';
 import Button from '../component/Button';
 import { useNavigate } from "react-router-dom";
 import Input from '../component/Input'
-
+import Gif from '../component/Gif';
+import AudioListen from '../component/AudioListen';
 
 const OpenAiConversation = () => {
     const navigate = useNavigate();
@@ -70,8 +71,10 @@ const OpenAiConversation = () => {
                 </div>
 
                 <div className='d-flex flex-column align-items-center justify-content-center gap-4 openai-conversation'>
-                    <img className='audio-voice-template' src={Images.audio} alt="Sybo GIF" />
-                    <img className='mick-content' src={Images.mick} alt="Sybo GIF" />
+                    {/* <img className='audio-voice-template' src={Images.audio} alt="Sybo GIF" /> */}
+                    <AudioListen/>
+
+                    <Gif/>
                     <div className='d-flex align-items-center justify-content-center flex-column gap-2'>
                         <button className='end-conversation-content'> <img src={Images.cancel} alt="Sybo GIF" />  </button>
                         <p className='end-conversation-title mb-0'>End conversation</p>
