@@ -13,48 +13,24 @@
 
 .bottom-navbar-header{margin-top: auto;}
 .question-one-avatar { min-height: 100vh; display: flex;flex-direction: column;background: linear-gradient(to bottom, rgba(38, 37, 3, 0) 24%, rgba(0, 0, 0, 0.86) 52%), url('./assets/images/avatar-3.jpg');background-repeat: no-repeat;background-position: center;background-attachment: fixed;background-size: cover;  /* Ensures the image covers the div */width: 100%;}
-
 .bottom-navbar-conatiner{ /* position: fixed; bottom: 0; left: 0; */width: 100%;background-color: #fff;padding: 20px;z-index: 10;margin-top: auto;}
-
-
 .openai-conversation{width: 100%;padding: 20px;z-index: 10;margin-top: auto;}
-
-.ai-chat-container{
-  padding: 20px; overflow-y: scroll;flex-wrap: no-wrap;overflow: auto; mask-image: linear-gradient(to bottom, transparent, black 50%, black 97%, transparent);padding-top: 20px; padding-bottom: 8px;min-height: 50px;max-height: 333px;-webkit-box-orient: vertical;-webkit-box-direction: normal;
-} 
-
-
+.ai-chat-container{ padding: 20px; overflow-y: scroll;flex-wrap: no-wrap;overflow: auto; mask-image: linear-gradient(to bottom, transparent, black 50%, black 97%, transparent);padding-top: 20px; padding-bottom: 8px;min-height: 50px;max-height: 333px;-webkit-box-orient: vertical;-webkit-box-direction: normal;} 
 
 .listening-content{background-color: #2E2E2E; padding: 11px;}
 .listening-content p{font-family: "Poppins-Regular";font-size: 14px;color: #fff;}
-
-.gif-content{
-  width: 20px;
-    height: 10px;
-    object-fit: cover;
-}
+.gif-content{width: 20px;height: 10px;object-fit: cover;}
 .time-text-content{font-family: "Poppins-Medium"; font-size: 10px; color: #212121;}
-
-
 .audio-voice-template{width: 150px;}
-
 .end-conversation-title{color: #888889;font-size: 12px; font-family: "Poppins-Regular";}
-
 .end-conversation-content{background: transparent;box-shadow: none; border: none;}
-
 .mick-content{width: 57px; height: 57px;}
-
-
 .audio-speak-container{max-width: 300px;max-height: 100px;}
-
 .speak-listen-container{max-width: 100px;max-height: 70px;}
-
 .end-conversation-popup-header{background: #FFFFFF;position: absolute; top: 50%;padding: 13px 27px;border-radius: 8px;}
 .end-conversation-popup-btn .yes-btn{width: 50%;background-color: #76BEE9;color: #fff; padding: 5px 10px;border: none;border-radius: 50px;}
 .end-conversation-popup-btn .no-btn{width: 50%;padding: 5px 10px;background-color: #fff;color: #76BEE9;border: 1px solid #76BEE9; border-radius: 50px;}
-
 .end-conversation-popup-text {font-family: "Poppins-Regular";font-size: 12px;}
-
 .ai-chat-item{background-color: #EEEBFF;color: #212121;font-size: 14px;font-family: "Poppins-Regular";padding: 12px 16px;border-radius: 12px 12px 12px 0px ;max-width: 70%;}
 .user-chat-item{background-color: #FBF1DB;color: #212121;font-size: 14px;font-family: "Poppins-Regular";padding: 12px 16px;border-radius: 12px 12px 12px 0px ;max-width: 70%;}
 

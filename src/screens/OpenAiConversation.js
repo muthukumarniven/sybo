@@ -78,14 +78,10 @@ const OpenAiConversation = () => {
                         <Gif />
                     </div>
 
-
-
                     {/* <div className='d-flex align-items-center justify-content-center flex-column gap-2'>
                         <button className='end-conversation-content'> <img src={Images.cancel} alt="Sybo GIF" />  </button>
                         <p className='end-conversation-title mb-0'>End conversation</p>
                     </div> */}
-
-
 
                     <div className="d-flex align-items-center justify-content-center flex-column gap-2">
                         <button
@@ -95,7 +91,6 @@ const OpenAiConversation = () => {
                             <img src={Images.cancel} alt="Sybo GIF" />
                         </button>
                         <p className="end-conversation-title mb-0">End conversation</p>
-
                         {showPopup && (
                             <div className="popup-overlay end-conversation-popup-header">
                                 <div className="popup-content end-conversation-popup-text">
@@ -108,7 +103,6 @@ const OpenAiConversation = () => {
                             </div>
                         )}
                     </div>
-
 
 
                 </div>
