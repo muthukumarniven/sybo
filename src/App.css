@@ -49,8 +49,11 @@
 
 .speak-listen-container{max-width: 100px;max-height: 70px;}
 
+.end-conversation-popup-header{background: #FFFFFF;position: absolute; top: 50%;padding: 13px 27px;border-radius: 8px;}
+.end-conversation-popup-btn .yes-btn{width: 50%;background-color: #76BEE9;color: #fff; padding: 5px 10px;border: none;border-radius: 50px;}
+.end-conversation-popup-btn .no-btn{width: 50%;padding: 5px 10px;background-color: #fff;color: #76BEE9;border: 1px solid #76BEE9; border-radius: 50px;}
 
-
+.end-conversation-popup-text {font-family: "Poppins-Regular";font-size: 12px;}
 
 .ai-chat-item{background-color: #EEEBFF;color: #212121;font-size: 14px;font-family: "Poppins-Regular";padding: 12px 16px;border-radius: 12px 12px 12px 0px ;max-width: 70%;}
 .user-chat-item{background-color: #FBF1DB;color: #212121;font-size: 14px;font-family: "Poppins-Regular";padding: 12px 16px;border-radius: 12px 12px 12px 0px ;max-width: 70%;}

@@ -10,6 +10,7 @@ const OpenAiConversation = () => {
     const navigate = useNavigate();
 
     const [fullName, setFullName] = useState('');
+    const [showPopup, setShowPopup] = useState(false);
 
     const handleFullNameChange = (e) => {
         setFullName(e.target.value);
@@ -75,11 +76,41 @@ const OpenAiConversation = () => {
                     </div>
                     <div className='speak-listen-container' >
                         <Gif />
-                    </div>  
-                    <div className='d-flex align-items-center justify-content-center flex-column gap-2'>
+                    </div>
+
+
+
+                    {/* <div className='d-flex align-items-center justify-content-center flex-column gap-2'>
                         <button className='end-conversation-content'> <img src={Images.cancel} alt="Sybo GIF" />  </button>
                         <p className='end-conversation-title mb-0'>End conversation</p>
+                    </div> */}
+
+
+
+                    <div className="d-flex align-items-center justify-content-center flex-column gap-2">
+                        <button
+                            className="end-conversation-content"
+                            onClick={() => setShowPopup(true)}
+                        >
+                            <img src={Images.cancel} alt="Sybo GIF" />
+                        </button>
+                        <p className="end-conversation-title mb-0">End conversation</p>
+
+                        {showPopup && (
+                            <div className="popup-overlay end-conversation-popup-header">
+                                <div className="popup-content end-conversation-popup-text">
+                                    <p>Would you like to stop this conversation?</p>
+                                    <div className="popup-actions d-flex align-items-center justify-content-center gap-3 end-conversation-popup-btn">
+                                        <button className='yes-btn' onClick={() => { /* Handle end conversation logic */ }}>Yes</button>
+                                        <button className='no-btn' onClick={() => setShowPopup(false)}>No</button>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
                     </div>
+
+
+
                 </div>
             </div>
         </div>
