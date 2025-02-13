@@ -17,59 +17,123 @@ const OpenAiConversation = () => {
     };
 
     return (
-        <div className='question-one-avatar'>
-            <div className='bottom-navbar-header'>
-                <div className='ai-chat-container d-flex flex-column gap-3'>
-                    <div className='d-flex align-items-end justify-content-start gap-2'>
-                        <div className='ai-chat-item'>
-                            <p className='mb-0'>What specific challenge are you facing
-                                right now?</p>
-                            <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
+        // <div className='question-one-avatar'>
+        //     <div className='bottom-navbar-header'>
+        //         <div className='ai-chat-container d-flex flex-column gap-3'>
+        //             <div className='d-flex align-items-end justify-content-start gap-2'>
+        //                 <div className='ai-chat-item'>
+        //                     <p className='mb-0'>What specific challenge are you facing
+        //                         right now?</p>
+        //                     <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
 
-                        </div>
-                    </div>
-                    <div className='d-flex align-items-end justify-content-end gap-2'>
-                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
-                        <div className='user-chat-item'>
-                            <p className='mb-0'>Relationship</p>
-                            <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
-                        </div>
-                    </div>
+        //                 </div>
+        //             </div>
+        //             <div className='d-flex align-items-end justify-content-end gap-2'>
+        //                 <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
+        //                 <div className='user-chat-item'>
+        //                     <p className='mb-0'>Relationship</p>
+        //                     <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
+        //                 </div>
+        //             </div>
 
-                    <div className='d-flex align-items-end justify-content-start gap-2'>
-                        <div className='ai-chat-item'>
-                            <p className='mb-0'>What specific challenge are you facing
-                                right now?</p>
-                            <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
+        //             <div className='d-flex align-items-end justify-content-start gap-2'>
+        //                 <div className='ai-chat-item'>
+        //                     <p className='mb-0'>What specific challenge are you facing
+        //                         right now?</p>
+        //                     <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
 
-                        </div>
-                    </div>
-                    <div className='d-flex align-items-end justify-content-end gap-2'>
-                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
-                        <div className='user-chat-item'>
-                            <p className='mb-0'>Relationship</p>
-                            <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
-                        </div>
-                    </div>
+        //                 </div>
+        //             </div>
+        //             <div className='d-flex align-items-end justify-content-end gap-2'>
+        //                 <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
+        //                 <div className='user-chat-item'>
+        //                     <p className='mb-0'>Relationship</p>
+        //                     <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
+        //                 </div>
+        //             </div>
 
-                    <div className='d-flex align-items-end justify-content-start gap-2'>
-                        <div className='ai-chat-item'>
-                            <p className='mb-0'>What specific challenge are you facing
-                                right now?</p>
-                            <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
+        //             <div className='d-flex align-items-end justify-content-start gap-2'>
+        //                 <div className='ai-chat-item'>
+        //                     <p className='mb-0'>What specific challenge are you facing
+        //                         right now?</p>
+        //                     <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
 
-                        </div>
-                    </div>
-                    <div className='d-flex align-items-end justify-content-end gap-2'>
-                        <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
-                        <div className='user-chat-item'>
-                            <p className='mb-0'>Relationship</p>
-                            <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
-                        </div>
+        //                 </div>
+        //             </div>
+        //             <div className='d-flex align-items-end justify-content-end gap-2'>
+        //                 <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
+        //                 <div className='user-chat-item'>
+        //                     <p className='mb-0'>Relationship</p>
+        //                     <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
+        //                 </div>
+        //             </div>
+        //         </div>
+
+        //         <div className='d-flex flex-column align-items-center justify-content-center gap-4 openai-conversation'>
+        //             {/* <img className='audio-voice-template' src={Images.audio} alt="Sybo GIF" /> */}
+        //             <div className='audio-speak-container' >
+        //                 <AudioListen />
+        //             </div>
+        //             <div className='speak-listen-container' >
+        //                 <Gif />
+        //             </div>
+
+        //             {/* <div className='d-flex align-items-center justify-content-center flex-column gap-2'>
+        //                 <button className='end-conversation-content'> <img src={Images.cancel} alt="Sybo GIF" />  </button>
+        //                 <p className='end-conversation-title mb-0'>End conversation</p>
+        //             </div> */}
+
+        //             <div className="d-flex align-items-center justify-content-center flex-column gap-2">
+        //                 <button
+        //                     className="end-conversation-content"
+        //                     onClick={() => setShowPopup(true)}
+        //                 >
+        //                     <img src={Images.cancel} alt="Sybo GIF" />
+        //                 </button>
+        //                 <p className="end-conversation-title mb-0">End conversation</p>
+        //                 {showPopup && (
+        //                     <div className="popup-overlay end-conversation-popup-header">
+        //                         <div className="popup-content end-conversation-popup-text">
+        //                             <p>Would you like to stop this conversation?</p>
+        //                             <div className="popup-actions d-flex align-items-center justify-content-center gap-3 end-conversation-popup-btn">
+        //                                 <button className='yes-btn' onClick={() => { /* Handle end conversation logic */ }}>Yes</button>
+        //                                 <button className='no-btn' onClick={() => setShowPopup(false)}>No</button>
+        //                             </div>
+        //                         </div>
+        //                     </div>
+        //                 )}
+        //             </div>
+
+
+        //         </div>
+        //     </div>
+        // </div>
+
+
+
+
+
+        <div className='chat-container'>
+        <div className='message'>
+            <div className='ai-chat-container d-flex flex-column gap-3'>
+                <div className='d-flex align-items-end justify-content-start gap-2'>
+                    <div className='ai-chat-item'>
+                        <p className='mb-0'>What specific challenge are you facing
+                            right now?</p>
+                        <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
                     </div>
                 </div>
+                <div className='d-flex align-items-end justify-content-end gap-2'>
+                    <Button backgroundColor='#D9D9D9' buttonWidth='23px' buttonHeight='23px' imgWidth='8px' imgHeight='8px' imageSrc={Images.edit} />
+                    <div className='user-chat-item'>
+                        <p className='mb-0'>Relationship</p>
+                        <p className='time-text-content mb-0 text-end mt-1'>9.23 PM</p>
+                    </div>
+                </div>
+            </div>
 
-                <div className='d-flex flex-column align-items-center justify-content-center gap-4 openai-conversation'>
+
+            <div className='d-flex flex-column align-items-center justify-content-center gap-1 openai-conversation'>
                     {/* <img className='audio-voice-template' src={Images.audio} alt="Sybo GIF" /> */}
                     <div className='audio-speak-container' >
                         <AudioListen />
@@ -106,8 +170,22 @@ const OpenAiConversation = () => {
 
 
                 </div>
-            </div>
+
+
+
         </div>
+
+        
+      
+    
+    </div>
+
+
+
+
+
+
+
     )
 }
 
