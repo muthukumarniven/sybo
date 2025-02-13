@@ -28,6 +28,7 @@
     max-height: 333px; */
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+    height: 300px;
 } 
 
 .listening-content{background-color: #2E2E2E; padding: 11px;}
@@ -84,9 +85,10 @@
         padding-top: 20px;
         padding-bottom: 8px;
         /* min-height: 50px; */
-        max-height: 500px;
+        /* max-height: 500px; */
         -webkit-box-orient: vertical;
         margin-top: auto;
+        
 }
 
 
